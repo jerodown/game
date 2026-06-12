@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\conditions">
+      <UniqueIdentifier>{ab0ceb2f-298f-4dc6-92c5-8ba21185d3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\scenes">
+      <UniqueIdentifier>{eaa203b3-fbd9-4cab-8611-dcbf0a5f9b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\elements">
+      <UniqueIdentifier>{2efe0171-8ae7-4403-b1fe-b56d1299c780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\scenes\mercado">
+      <UniqueIdentifier>{937b5427-585d-41f6-aab8-da4205d3ab37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\scenes\mercado\0">
+      <UniqueIdentifier>{a26a11af-4cd4-4786-ac50-0248b6ffc642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\scenes\mercado\1">
+      <UniqueIdentifier>{f203a6d6-e565-4bb0-8472-2caf8164f8d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\scenes\mercado\2">
+      <UniqueIdentifier>{e11ffd42-57f8-4997-995a-947bb3aefa29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\scenes\mercado\3">
+      <UniqueIdentifier>{1cca4ee4-213e-41de-9e91-1a626b937228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\scenes\mercado\4">
+      <UniqueIdentifier>{553c702d-3457-41b0-9261-187805a2add8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\scenes\screen">
+      <UniqueIdentifier>{c38a97ee-32b7-4b2e-82c5-7def8b189f31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\gamevoid">
+      <UniqueIdentifier>{45345ff3-4223-4916-964f-74b159a9526d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="The Game.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="include\conditions.cpp">
+      <Filter>Arquivos de Cabeçalho\conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Scene Mercado\mercado_1_0.cpp">
+      <Filter>Arquivos de Cabeçalho\scenes\mercado\0</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Scene Mercado\mercado_1_1.cpp">
+      <Filter>Arquivos de Cabeçalho\scenes\mercado\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Scene Mercado\mercado_1_2.cpp">
+      <Filter>Arquivos de Cabeçalho\scenes\mercado\2</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Scene Mercado\mercado_1_4.cpp">
+      <Filter>Arquivos de Cabeçalho\scenes\mercado\4</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Scene Mercado\mercado_1_3.cpp">
+      <Filter>Arquivos de Cabeçalho\scenes\mercado\3</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Screen\screen.cpp">
+      <Filter>Arquivos de Cabeçalho\scenes\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="gamevoid.cpp">
+      <Filter>Arquivos de Cabeçalho\gamevoid</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Button\buttonchoice.cpp">
+      <Filter>Arquivos de Cabeçalho\elements</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\conditions.hpp">
+      <Filter>Arquivos de Cabeçalho\conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene Mercado\mercado_1_0.hpp">
+      <Filter>Arquivos de Cabeçalho\scenes\mercado\0</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene Mercado\mercado_1_1.hpp">
+      <Filter>Arquivos de Cabeçalho\scenes\mercado\1</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene Mercado\mercado_1_2.hpp">
+      <Filter>Arquivos de Cabeçalho\scenes\mercado\2</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene Mercado\mercado_1_4.hpp">
+      <Filter>Arquivos de Cabeçalho\scenes\mercado\4</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene Mercado\mercado_1_3.hpp">
+      <Filter>Arquivos de Cabeçalho\scenes\mercado\3</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Screen\screen.hpp">
+      <Filter>Arquivos de Cabeçalho\scenes\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="gamevoid.hpp">
+      <Filter>Arquivos de Cabeçalho\gamevoid</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Button\buttonchoice.hpp">
+      <Filter>Arquivos de Cabeçalho\elements</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
